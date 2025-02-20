@@ -1,0 +1,125 @@
+.staatliches-regular {
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .gidugu-regular {
+    font-family: "Gidugu", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+:root{
+    --fundo-body:#050C9C;
+    --fundo-div:#3572EF;
+    --azul-claro:#3ABEF9;
+    --azul-bebe:#A7E6FF;
+    --paragrafo:white;
+
+    --fonte-titulo:"Staatliches",'Arial', serif;
+    --fontes-paragrafo:"Gidugu",'Arial', serif;
+
+}
+
+body{
+    background-color: var(--fundo-body);   
+    margin-bottom: auto;
+    text-align: center;
+    color: var(--paragrafo);
+}
+    
+#calculo{
+    background-color: var(--fundo-div);
+    border: var(--azul-bebe), 1px, solid;
+    border-radius: 10px;
+    width: 450px;
+    position: relative;
+    margin: 13% auto auto auto;
+    font-size: 2em;
+}
+
+#emissao{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+}
+    
+#qnt-dias{
+        display: flex;
+}
+
+h1{
+        background-color: var(--fundo-body);
+        margin: 10px;
+        padding: 5px;
+        border: var(--azul-bebe) 1px solid;
+        border-radius: 10px;
+        position: absolute;
+        top: -18%;
+        left: 11%;
+        font-size: 1.1em;
+        font-family: var(--fonte-titulo);
+        
+}
+p{
+        margin: 10px;
+        font-size: 0.8em;
+        font-family: var(--fontes-paragrafo);
+}
+#emissao > p{
+        margin-bottom: 0;
+        
+}
+#input-emissao{
+        margin-top: 13px;
+        padding: 3px;
+        height: 20px;
+        width: 150px;
+        background-color: rgb(225, 230, 247);
+        border: 1px solid var(--fundo-body);
+        border-radius: 5px;
+        text-align: center;
+}
+#input-emissao:hover{
+        border: 1px solid var(--azul-bebe);
+}
+#input-emissao:focus{
+        outline: none;
+        border: 2px solid var(--azul-bebe);
+
+}
+#qnt-dias > p{
+        margin:10px ;
+        margin-bottom: 0;
+}
+#qnt-dias > input{
+        margin-top: 12px;
+        margin-left: 6px;
+        height: 30px;
+        width: 50px;
+        border: 1px solid var(--fundo-body);
+        border-radius: 5px;
+        background-color: #daebfc;
+}
+#qnt-dias > input:hover{
+    border: 1px solid var(--azul-bebe);
+    border-radius: 5px;
+    background-color: #c9e1f8;
+}
+#qnt-dias > input:focus{
+    border: 1px solid var(--azul-bebe);
+    border-radius: 5px;
+    background-color: #c9e1f8;
+}
+button{
+    margin: 20px 5px 10px 5px;
+    width: 120px;
+    height: 25px;
+    background-color: #daebfc;
+    border: 1px solid var(--azul-bebe);
+    border-radius: 5px;
+}
+#resposta{
+    margin-top: 25px;
+}
