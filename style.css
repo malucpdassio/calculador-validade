@@ -120,6 +120,15 @@ button{
     border: 1px solid var(--azul-bebe);
     border-radius: 5px;
 }
+button:hover{
+    border: 1px solid var(--fundo-body);
+    border-radius: 5px;
+    background-color: #1d20af;
+    color: white;
+    font-weight: 400;
+}
 #resposta{
     margin-top: 25px;
+    font-family: var(--fontes-paragrafo);
+    font-size: 1.7rem;
 }

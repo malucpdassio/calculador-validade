@@ -13,17 +13,19 @@
             <p>Data da Emissão: </p>
             <input type="date" name="emissao" id="input-emissao">
         </div>
+
         <div id="qnt-dias">
             <p>Dias Validos:</p>
-            <input type="button" value="30">
-            <input type="button" value="60">
-            <input type="button" value="180">
+            <input class="dias" type="button" value="30">
+            <input class="dias" type="button" value="60">
+            <input class="dias" type="button" value="180">
         </div>
-        <button disabled="disabled" onclick="calculo()">Calcular Validade</button>
-        <button type="reset" onclick="resetar()"></button>
+
+        <button onclick="calculo()">Calcular Validade</button>
+        <button type="reset" onclick="resetar()">Reiniciar</button>
     </div>
     <div id="resposta">
-        <p>CND valida até: Sem validade</p>
+        <p>CND valida até:</p>
     </div>
 
     <script src="script.js"></script>
