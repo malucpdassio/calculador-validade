@@ -132,3 +132,112 @@ button:hover{
     font-family: var(--fontes-paragrafo);
     font-size: 1.7rem;
 }
+
+@media (max-width: 1024px) {
+    
+    #calculo{
+        background-color: var(--fundo-div);
+        border: var(--azul-bebe), 1px, solid;
+        border-radius: 10px;
+        width: 300px;
+        position: relative;
+        margin: 13% auto auto auto;
+        font-size: 2em;
+    }
+    
+    #emissao{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        display: flex;
+    }
+        
+    #qnt-dias{
+            display: flex;
+    }
+    
+    h1{
+            background-color: var(--fundo-body);
+            margin: 10px;
+            padding: 5px;
+            border: var(--azul-bebe) 1px solid;
+            border-radius: 10px;
+            position: absolute;
+            top: -15%;
+            left: 10%;
+            font-size: 0.7em;
+            font-family: var(--fonte-titulo);
+            
+    }
+    p{
+            
+            font-size: 0.5em;
+            font-family: var(--fontes-paragrafo);
+    }
+    #emissao > p{
+            margin-bottom: 0;
+            margin-right: 5%;
+            
+    }
+    #input-emissao{
+            margin-top: 5px;
+            padding: 3px;
+            height: 20px;
+            width: 120px;
+            background-color: rgb(225, 230, 247);
+            border: 1px solid var(--fundo-body);
+            border-radius: 5px;
+            text-align: center;
+    }
+    #input-emissao:hover{
+            border: 1px solid var(--azul-bebe);
+    }
+    #input-emissao:focus{
+            outline: none;
+            border: 2px solid var(--azul-bebe);
+    
+    }
+    #qnt-dias > p{
+            margin:10px ;
+            margin-bottom: 0;
+    }
+    #qnt-dias > input{
+            margin-top: 8px;
+            margin-left: 5px;
+            height: 25px;
+            width: 40px;
+            border: 1px solid var(--fundo-body);
+            border-radius: 5px;
+            background-color: #daebfc;
+    }
+    #qnt-dias > input:hover{
+        border: 1px solid var(--azul-bebe);
+        border-radius: 5px;
+        background-color: #c9e1f8;
+    }
+    #qnt-dias > input:focus{
+        border: 1px solid var(--azul-bebe);
+        border-radius: 5px;
+        background-color: #c9e1f8;
+    }
+    button{
+        margin: 20px 5px 10px 5px;
+        width: 120px;
+        height: 25px;
+        background-color: #daebfc;
+        border: 1px solid var(--azul-bebe);
+        border-radius: 5px;
+    }
+    button:hover{
+        border: 1px solid var(--fundo-body);
+        border-radius: 5px;
+        background-color: #1d20af;
+        color: white;
+        font-weight: 400;
+    }
+    #resposta{
+        margin-top: 25px;
+        font-family: var(--fontes-paragrafo);
+        font-size: 1.7rem;
+    }
+
+}
