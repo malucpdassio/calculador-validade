@@ -133,7 +133,7 @@ button:hover{
     font-size: 1.7rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 820px) {
     
     #calculo{
         background-color: var(--fundo-div);
